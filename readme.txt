@@ -1,9 +1,17 @@
-# bootplate-shortcodes
-Bootstrap-based shortcodes optimized for the Bootplate theme.
+=== Bootplate Shortcodes ===
+Contributors: jdm-labs
+Donate link: http://jdmdigital.co
+Tags: bootplate, shortcodes, bootstrap, twitter bootstrap, shortcode, grid, button, responsive
+Requires at least: 3.0.1
+Tested up to: 4.4.2
+Stable tag: 0.1
+
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Simple Wordpress plugin to add shortcodes for Twitter Bootstrap v3.3.x (and some for Bootstrap v4).
 
-## Description
+== Description ==
 
 Simple Bootstrap v3 (and v4) shortcodes for creating columns, buttons and other Bootstrap componants.
 
@@ -24,7 +32,7 @@ A lot of plugins out there enqueue a LOT of resources.  This plugin enqueues NON
 
 More importantly, if you're all good on all that stuff, you don't need to worry about "plugin bloat."
 
-## Installation
+== Installation ==
 
 
 1. Download and unzip this plugin
@@ -34,10 +42,19 @@ More importantly, if you're all good on all that stuff, you don't need to worry 
 
 **NOTE**: You must already have Twitter Bootstrap installed on your theme to use this plugin correctly.
 
-## Frequently Asked Questions
+== Frequently Asked Questions ==
 
-**Does this plugin include Bootstrap 3?**
+= Does this plugin include Bootstrap 3? =
 No, we assume you are already working with a WordPress theme that includes the Bootstrap libraries.
 
-**Does it include Bootstrap 4?**
+= Does it include Bootstrap 4? =
 Nope, not really.  Bootstrap v4 is still in ALPHA and not ready for prime-time.  BUT there are a few Bootstrap 4 classes we've borrowed and placed in special.css for you to use with Bootplate Shortcodes.
+
+== Screenshots ==
+
+1. Coming soon...
+
+== Changelog ==
+
+= 0.1 =
+* Initial Release.
