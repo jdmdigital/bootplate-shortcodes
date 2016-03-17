@@ -1,5 +1,5 @@
-tinymce.PluginManager.add('bs_lead', function(editor, url) {
-    editor.addButton('bs_lead', {
+tinymce.PluginManager.add('bp_lead', function(editor, url) {
+    editor.addButton('bp_lead', {
         tooltip: 'Lead',
         icon: 'bs-lead',
         onclick: function() {

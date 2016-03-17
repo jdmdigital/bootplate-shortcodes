@@ -1,5 +1,5 @@
-tinymce.PluginManager.add('bs_wells', function(editor, url) {
-    editor.addButton('bs_wells', {
+tinymce.PluginManager.add('bp_wells', function(editor, url) {
+    editor.addButton('bp_wells', {
         type: 'menubutton',
         tooltip: 'Well',
         icon: 'bs-wells',

@@ -56,5 +56,8 @@ Nope, not really.  Bootstrap v4 is still in ALPHA and not ready for prime-time. 
 
 == Changelog ==
 
+= 0.6 =
+* Version Bump
+
 = 0.1 =
 * Initial Release.
