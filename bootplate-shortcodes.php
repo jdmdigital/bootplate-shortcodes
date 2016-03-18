@@ -34,6 +34,7 @@ require_once( 'inc/bp_cards.php' );
 require_once( 'inc/bp_antispam.php' );
 //require_once( 'inc/bs_collapse.php' );
 require_once( 'inc/bp_alerts.php' );
+require_once( 'inc/bp_aside.php' );
 //require_once( 'inc/bp_well.php' );
 require_once( 'inc/bp_buttons.php' );
 //require_once( 'inc/bs_labels.php' );
@@ -63,6 +64,7 @@ class BootplateShortcodes{
         'cards',
 		'antispam',
         'alerts',
+		'aside',
         'buttons',
         'icons',
         'lead',

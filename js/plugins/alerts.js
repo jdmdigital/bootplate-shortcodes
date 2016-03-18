@@ -3,7 +3,7 @@ tinymce.PluginManager.add('bp_alerts', function(editor, url) {
         tooltip: 'Alerts',
         icon: 'bs-alerts',
         onclick: function() {
-            editor.insertContent('[alert type="warning, danger, success, info"]<strong>Attention.</strong> This is an alert.[/lead]');
+            editor.insertContent('[alert type="warning, danger, success, info"]<strong>Attention.</strong> This is an alert.[/alert]');
         }
     });
 });
