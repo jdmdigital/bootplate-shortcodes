@@ -4,7 +4,7 @@ Donate link: http://jdmdigital.co
 Tags: bootplate, shortcodes, bootstrap, twitter bootstrap, shortcode, grid, button, responsive
 Requires at least: 3.0.1
 Tested up to: 4.4.2
-Stable tag: 0.1
+Stable tag: 0.7
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -55,6 +55,9 @@ Nope, not really.  Bootstrap v4 is still in ALPHA and not ready for prime-time. 
 1. Coming soon...
 
 == Changelog ==
+
+= 0.7 =
+* New MCE Icons
 
 = 0.6 =
 * Version Bump

@@ -3,7 +3,7 @@
 Plugin Name: Bootplate Shortcodes
 Plugin URI: http://bootplate.jdmdigital.co/shortcodes/
 Description: Simple Wordpress plugin to add shortcodes for Twitter Bootstrap v3.3.x (and some for Bootstrap v4).
-Version: 0.6
+Version: 0.7
 Author: JDM Digital
 Author URI: http://jdmdigital.co
 License: GPLv2 or later

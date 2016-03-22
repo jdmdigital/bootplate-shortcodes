@@ -52,6 +52,20 @@
     background-position: -149px -19px !important;
 }
 
+/* New Icons */
+.mce-i-bp-pager, mce-i-bp-icos, .mce-i-bp-pre, .mce-i-bp-tweetable, .mce-i-bp-aside,.mce-i-bp-alerts, .mce-i-bp-cards,  .mce-i-bp-antispam, .mce-i-bp-lead, .mce-i-bp-code, .mce-i-bp-alert, .mce-i-bp-grid, .mce-i-bp-icon, .mce-i-bp-button{background:url("../images/bootplate-icons.png") no-repeat !important;}
+.mce-i-bp-pager{background-position: -149px -19px !important; }
+
+.mce-i-bp-icon, .mce-i-bp-icos{background-position: -170px -19px !important;}
+.mce-i-bp-grid{background-position: -2px -19px !important;}
+.mce-i-bp-antispam{background-position: -44px -19px !important;}
+.mce-i-bp-tweetable{background-position: -23px -19px !important;}
+.mce-i-bp-alerts, .mce-i-bp-alert, .mce-i-bp-aside{background-position: -65px -19px !important;}
+.mce-i-bp-code, .mce-i-bp-pre{background-position: -86px -19px !important;}
+.mce-i-bp-button{background-position: -107px -19px !important;}
+.mce-i-bp-lead{background-position: -149px -19px !important;}
+.mce-i-bp-cards{background-position: -128px -19px !important;}
+
 /* Iframe
 -------------------------------------------------------------- */
 #bs-wrapper {

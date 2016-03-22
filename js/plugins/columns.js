@@ -2,7 +2,7 @@ tinymce.PluginManager.add('bp_columns', function(editor, url) {
     editor.addButton('bp_columns', {
         type: 'menubutton',
         tooltip: 'Columns',
-        icon: 'bs-grid',
+        icon: 'bp-grid',
         menu: [
 			{ text: 'Full-Width Section', onclick: function() { editor.insertContent('[section class="bg-default" reopen="n/y"]I am in a full-width section.[/section]'); } },
 			{ text: '1/2 Columns', onclick: function() { editor.insertContent('[one_half xclass="col-md-6"]Text Goes Here[/one_half]<br class="nc"/>[one_half_last xclass="col-md-6"]Text Goes Here[/one_half_last]'); } },
