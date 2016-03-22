@@ -35,12 +35,13 @@ require_once( 'inc/bp_antispam.php' );
 //require_once( 'inc/bs_collapse.php' );
 require_once( 'inc/bp_alerts.php' );
 require_once( 'inc/bp_aside.php' );
-//require_once( 'inc/bp_well.php' );
+require_once( 'inc/bp_pre.php' );
 require_once( 'inc/bp_buttons.php' );
 //require_once( 'inc/bs_labels.php' );
 require_once( 'inc/bp_icons.php' );
 require_once( 'inc/bp_lead.php' );
 require_once( 'inc/bp_tweetable.php' );
+require_once( 'inc/bp_pager.php' );
 //require_once( 'inc/bs_tooltip.php' );
 
 // [caption id="attachment_10003" align="alignnone" width="961"]
@@ -66,9 +67,11 @@ class BootplateShortcodes{
         'alerts',
 		'aside',
         'buttons',
+		'pager',
         'icons',
         'lead',
-		'tweetable'
+		'tweetable',
+		'pre'
     );
 	
 	public function __construct() {

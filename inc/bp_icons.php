@@ -2,7 +2,7 @@
 // [bpicon class="" type="span"]
 // See Icon Reference: http://bootplate.jdmdigital.co/features/font-icons/
 if(!function_exists('bpicon_shortcode')) {
-	function icon_shortcode( $atts ) {
+	function bpicon_shortcode( $atts ) {
 		extract( shortcode_atts( array(
 			'type' => 'span',
 			'class' => 'btn btn-default'
