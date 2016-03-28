@@ -83,7 +83,9 @@ class BootplateShortcodes{
 	
 	function init() {
         //$options = get_option( 'bp_options' );
-        wp_enqueue_style( 'bp_admin_style', plugins_url( 'css/admin.css', __FILE__ ) );
+        if(is_admin()) {
+			wp_enqueue_style( 'bp_admin_style', plugins_url( 'css/admin.css', __FILE__ ) ); 
+		}
         if ( !current_user_can( 'edit_posts' ) && !current_user_can( 'edit_pages' ) ) {
             return;
         }
