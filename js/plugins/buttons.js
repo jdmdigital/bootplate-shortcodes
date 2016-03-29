@@ -3,7 +3,7 @@ tinymce.PluginManager.add('bp_buttons', function(editor, url) {
         tooltip: 'Buttons',
         icon: 'bp-button',
         onclick: function() {
-            editor.insertContent('[btn classes="btn-default"]Click Here[/btn]');
+            editor.insertContent('[btn btnurl="http://" classes="btn-default"]Click Here[/btn]');
         }
     });
 });

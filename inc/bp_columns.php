@@ -107,6 +107,7 @@ if(!function_exists('one_fourth_shortcode')) {
 	function one_fourth_shortcode( $atts, $content = null ) {
 		extract( shortcode_atts( array(
 			'xclass' => 'col-md-3',
+			'openrow' => 'n',
 		), $atts ) );
 		$html = '';
 		if(strtolower($openrow) == 'y' || strtolower($openrow) == 'yes') {

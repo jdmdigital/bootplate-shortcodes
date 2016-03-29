@@ -10,7 +10,7 @@ if(!function_exists('btn_shortcode')) {
 		), $atts ) );
 		$classes = 'btn '.$classes;
 		
-		if($id != '') {$btnid = false;} else {$btnid = true;}
+		if($id != '') {$btnid = true;} else {$btnid = false;}
 		if(strtolower($type) == 'button' || strtolower($type) == 'submit' || strtolower($type) == 'reset') { $btntype = true; } else {$btntype = false;}
 		if(!$btntype && $btnurl == '') {$btnurl = get_home_url(); }
 		
