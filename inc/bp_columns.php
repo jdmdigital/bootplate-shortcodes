@@ -58,9 +58,6 @@ if(!function_exists('one_third_shortcode')) {
 			'xclass' => 'col-md-4',
 		), $atts ) );
 		$html = '';
-		if(strtolower($openrow) == 'y' || strtolower($openrow) == 'yes') {
-			$html .= '<div class="row">';
-		}
 		$html .= '	<div class="'.$xclass.'">'.do_shortcode($content).'</div>';
 		return $html;
 	}
