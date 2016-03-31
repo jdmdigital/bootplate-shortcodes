@@ -4,7 +4,7 @@ Donate link: http://jdmdigital.co
 Tags: bootplate, shortcodes, bootstrap, twitter bootstrap, shortcode, grid, button, responsive
 Requires at least: 3.0.1
 Tested up to: 4.4.2
-Stable tag: 0.7
+Stable tag: 0.8
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
